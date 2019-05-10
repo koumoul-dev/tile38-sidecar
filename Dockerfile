@@ -1,4 +1,4 @@
-FROM tile38/tile38
+FROM tile38/tile38:1.17.0
 
 RUN apk add --update --no-cache netcat-openbsd
 ADD killable-server.sh .
